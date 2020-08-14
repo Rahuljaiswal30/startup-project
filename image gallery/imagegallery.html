@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>image-gallery</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="imagegallery.css">
+	<style>
+		button{
+			background-image: linear-gradient(0deg, pink,orange);
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			font-size: 30px;
+			border-radius: 20px;
+		}
+		button:hover{
+			background: white;
+			text-decoration: none;
+			transition: all 1.0s;
+		}
+		button a{
+			color: black;
+			text-decoration: none;
+		}
+		button a:hover{
+			color: red;
+			font-weight: 700;
+			font-family: inherit;
+			text-decoration: none;
+		}
+		i.fa-arrow-right{
+			font-size: 60px;
+		}
+		p.click{
+			font-size: 20px;
+			color: forestgreen;
+			font-family: inherit;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+		  <a class="navbar-brand" href="https://www.bootstrapcdn.com/fontawesome/"><i class="fa fa-image"></i> IMGS</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		 
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active"><a class="nav-link" href="#">About <span class="sr-only">(current)</span></a></li>
+			      <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
+			    </ul>
+			  </div>
+			    
+			<form>
+			 	<ul class="nav navbar-nav navbar-right">
+					 <li class="nav-item"><a class="nav-link" href="#">Log in</a></li>
+					 <li class="nav-item"><a class="nav-link" href="#">signup</a></li>
+				</ul>	
+		 	</form>
+		 </div>
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-lg-8">
+					<h1><a href="#"></a><i class="fa fa-camera-retro"></i> The Image Gallery</h1>
+					<p>A bunch of beautiful images that I didn't take(except for the first one!)</p>
+				</div>
+				<div class="col-lg-2">
+					<p class="click">
+						Click button for next page.<br>
+						<i class="fa fa-arrow-right"></i>
+					</p>
+				</div>
+				<div class="col-lg-2">
+					<button>
+						<a href="\home\akshata\Web developement project\initial-project\gallery\image wallpaper gallery.html">
+							Button
+						</a>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fstartswithabang%2Ffiles%2F2017%2F04%2Fmaxresdefault-1200x675.jpg">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://www.hindubhagwan.com/Gallery/images/portfolio/full/small/lord_hanuman_angry_image.jpg">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://www.stevethurlow.co.uk/wp-content/uploads/2019/05/elephant.jpg">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://laurenfix.com/wp-content/uploads/2017/04/2ace2e377de20e049a1004051660e5ae.png">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_960_720.jpg">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://cdn.pixabay.com/photo/2016/11/29/04/19/beach-1867285_960_720.jpg">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://image.shutterstock.com/z/stock-photo-surfer-running-on-the-beach-at-sunrise-with-reflections-661261039.jpg">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+		    </div>
+
+		    <div class="col-lg-4 col-sm-6">
+		    	<div class="img-thumbnail">
+					<img class="img-fluid" alt="Responsive image" src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+		    </div>
+
+
+  		</div>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

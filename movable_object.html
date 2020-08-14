@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>movable object</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+        img{
+            border: 3px solid red;
+            width: 300px;
+            height: 300px;
+            cursor: move;
+            margin: 12px;
+        }
+        body{
+            background: #f5d9d5;
+            margin: 0;
+        }
+        .container {
+        position: relative;
+        width: 25%;
+        float: left;
+        }
+        p{
+        text-align: center;
+        color: rgb(253, 0, 0);
+        font-size: 20px;
+        text-transform: capitalize;
+        }
+        /* Style the button and place it in the middle of the container/image */
+        .container .btn {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgba(54, 54, 54, 0.075);
+        color: white;
+        border: 1px solid rgba(34, 33, 33, 0.24);
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        }
+        .container .btn:hover {
+        background-color: black;
+        color: red;
+        }
+        div ~ button{
+            color:white;
+            font-size: 30px;
+            font-weight: 500;
+            width: 100%;
+            background: rgba(238, 27, 27, 0.377);
+            border: none;
+            padding: 10px 0;
+        }
+        a:hover{
+            font-size: 60px;
+            transition: all 1.0s;
+            text-transform: capitalize;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(".movable").draggable();
+        });
+    </script>
+    
+</head>
+<body>
+    <div class="container">
+        <img  class="movable" src="images_movable_object/image1.webp" alt="">
+        <button class="btn">Button</button>
+        <p>movable</p>
+    </div>  
+    <div class="container">
+        <img src="images/image2.webp" alt="">
+        <button class="btn">Button</button>
+        <p>Not movable</p>
+    </div>
+    <div class="container">
+        <img  class="movable" src="images/image3.jpg" alt="">
+        <button class="btn">Button</button>
+        <p>movable</p>
+    </div>
+    <div class="container">
+        <img src="images/image4.webp" alt="">
+        <button class="btn">Button</button>
+        <p>Not movable</p>
+    </div>
+
+    <button>
+        <a href="\home\akshata\Web developement project\scorekeeper.html" style="color: inherit; text-decoration: none;">
+            There is something more exciting for you <br> let me take you there, Click me!
+        </a>
+    </button>
+</body>
+</html>

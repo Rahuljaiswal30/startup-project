@@ -1,0 +1,65 @@
+body{
+	margin: 20px auto;
+	max-width: 700px;
+	width: 80%;
+	border: 20px  solid #bdc3c7;
+	font-family: source sans pro;
+	font-weight: 400;
+	background-image: url(jenny-caywood-iBRZ9KUn-h4-unsplash.jpg);
+	background-size: cover;
+	}
+
+html{
+	height: 100%;
+}
+
+#container{
+	padding: 40px;
+	background-image: linear-gradient(pink, #F9F871);
+}
+#container .container{
+	margin: 0;
+	padding: 20px 20px 0 20px;
+	background-image: linear-gradient(#F9F871, #F9F871);
+}
+button{
+	width: 100%;
+	background: inherit;
+	border: none;
+	color: blueviolet;
+	font-size: 25px;
+	font-weight: 400;
+	font-family: inherit;
+}
+
+button:hover{
+	/* color: red; */
+	background-image: linear-gradient(pink, #F9F871);
+	font-weight: 800;
+	font-size: 35px;
+	text-decoration: underline;
+	transition: all 0.6s;
+}
+.date{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+div p:nth-of-type(1){
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+h1{
+	text-transform: capitalize;
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+hr { 
+	margin: 40px 0 40px 0;	
+	height:3px; 
+	border:none; 
+	background-color:rgba(10,10,10,.2); 
+}
